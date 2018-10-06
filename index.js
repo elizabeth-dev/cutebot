@@ -8,6 +8,6 @@ const bot = botgram(process.env.TELEGRAM_TOKEN, { agent: agent })
 
 bot.all((msg, reply) => {
 	if (msg.from.id === parseInt(process.env.USER_ID)) {
-		reply.text('Et dius Alba i ets molt bonica')
+		reply.text('Et dius Alba i ets una gateta molt bonica')
 	}
 })
