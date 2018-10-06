@@ -1,0 +1,28 @@
+{
+  "name": "cutebot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that only tells my gf that she is beautiful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabeth-dev/cutebot.git"
+  },
+  "keywords": [
+    "bot",
+    "botgram",
+    "telegram"
+  ],
+  "author": "Elizabeth Martín Campos",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/elizabeth-dev/cutebot/issues"
+  },
+  "homepage": "https://github.com/elizabeth-dev/cutebot#readme",
+  "dependencies": {
+    "botgram": "^2.2.0",
+    "dotenv": "^6.0.0"
+  }
+}
