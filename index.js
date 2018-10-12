@@ -1,6 +1,5 @@
 'use strict'
 
-require('dotenv').config()
 const https = require('https')
 const agent = new https.Agent({ keepAlive: true, maxFreeSockets: 5 })
 const botgram = require('botgram')
