@@ -12,3 +12,16 @@ bot.all((msg, reply) => {
 		reply.text('Et dius Eli i ets una gateta molt dolça')
 	}
 })
+
+bot.stop()
+
+exports.telegram = (req, res) => {
+	bot.set('username', 'alba_cutebot')
+	bot.processUpdate(req.body)
+	const response = {
+		statusCode: 200,
+		body: JSON.stringify('Cutebot v1.1.0')
+	}
+
+	res.send(response)
+}
